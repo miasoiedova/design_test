@@ -4,94 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Design</title>
-    <link rel="stylesheet" href="/styles.css">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-   <header class="header">
-     <div class="top-header">
-        <div class="account-data">
-            <img src="/images/User.png" alt="UserIcon" style="margin-right: 8px;"> Account
-        </div>
-        <div>
-        <img src="./images/Shopping.png" alt="ShoppingIcon">
-        </div>
-     </div>
-     <div class="category">
-        <p>Jewelry & Accessories</p>
-        <p>Clothing & Shoes</p>
-        <p>Home & Living</p>
-        <p>Wedding & Party</p>
-        <p>Toys & Entertainment</p>
-        <p>Art & Collectibles</p>
-        <p>Craft Supplies & Tools</p>
-     </div>
-     <div class="product">
-        <div class="contentProduct">
-            <h1 class="mainHeader">Collections</h1>
-            <h2 class="textHeader">You can explore ans shop many differnt collection
-                from various barands here.</h2>
-            <div class="buttonShopNow">
-                <img src="./images/Bag_alt.png" alt="BagIcon" class="bagIcon"> 
-                <p style="margin: 9px 26px 8px 0px;">Shop Now </p>
-            </div>
-        </div>
-        <div class="imageProduct">
-            <img src="./images/image-product.png" alt="image-product" style="width: 442px; height: 562px;">
-        </div>
-     </div>
-   </header>
-   <section class="shoppingSection">
-        <div class="brands">
-            <img src="./images/brand-1.png" alt="brand-1">
-            <img src="./images/brand-5.png" alt="brand-5">
-            <img src="./images/brand-3.png" alt="brand-3">
-            <img src="./images/brand-4.png" alt="brand-4">
-            <img src="./images/brand-2.png" alt="brand-2">
-        </div>
-        <div class="hotCategory">
-            <div class="textItems">  
-                <p>Explore new and popular styles</p>
-                <img src="./images/item-category.png" alt="item-category">
-            </div> 
-            <div class="itemCategories">
-                <img src="./images/item-category1.png" alt="item-category1">
-                <img src="./images/item-category2.png" alt="item-category2">
-                <img src="./images/item-category3.png" alt="item-category3">
-                <img src="./images/item-category-hover.png" alt="item-category-hover">
-            </div>
-        </div>
-        <div class="grid-products">
-            <h2 class="title-products">new products</h2>
-            <div class="header-products">
-                <div class="sort-products">
-                    <p class="blacktextheader">all products</p>
-                    <p>t-shirt</p>
-                    <p>hoodies</p>
-                    <p>jacket</p>
+   <section class="top-main background">
+        <header class="top-main-header padding">
+            <div class="left-header">
+                <div class="account-data">
+                    <img src="./images/User.png" alt="User">
+                    Account
                 </div>
-                <div class="buttonFilter-products">
-                        <img src="./images/Vector.png" alt="FilterIcon" style="width: 12px; height: 12px; margin: 10px 8px 10px 15px;">
-                        <p style="margin: 5px 15px 5px 0px;">Filter</p> 
+                <img src="./images/Shopping.png" alt="Shopping">
+            </div>
+            <div class="top-main-categories">
+                <p>Jewelry & Accessories</p>
+                <p>Clothing & Shoes</p>
+                <p>Home & Living</p>
+                <p>Wedding & Party</p>
+                <p>Toys & Entertainment</p>
+                <p>Art & Collectibles</p>
+                <p>Craft Supplies & Tools</p>
+            </div>
+        </header>
+        <div class="top-main-product padding">
+            <div class="content-top-main-product">
+                <h2 class="title-content">Collections</h2>
+                <p class="text-content">you can explore ans shop many differnt collection from various barands here.</p>
+                <button class="ShopNow-button">
+                    <img src="./images/Bag_alt.png" alt="Bag_alt">
+                    Shop Now
+                </button>
+            </div>
+            <div class="image-top-main-product">
+                <img src="./images/image-product.png" alt="image-product">
+            </div>
+        </div>
+   </section> 
+
+   <main class="shopping-main">
+        <section class="hot-category">
+            <div class="brands padding">
+                <img src="./images/brand-1.png" alt="brand-1" class="brand-image">
+                <img src="./images/brand-5.png" alt="brand-5" class="brand-image">
+                <img src="./images/brand-3.png" alt="brand-3" class="brand-image">
+                <img src="./images/brand-4.png" alt="brand-4" class="brand-image">
+                <img src="./images/brand-2.png" alt="brand-2" class="brand-image">
+            </div>
+            <div class="items-hot-category">
+                <p class="text-items">Explore new and popular styles</p>
+                <img src="./images/item-category.png" alt="item-category" class="item-category-image">
+                <div class="collage-images">
+                    <img src="./images/item-category1.png" alt="item-category1">
+                    <img src="./images/item-category2.png" alt="item-category2">
+                    <img src="./images/item-category3.png" alt="item-category3">
+                    <img src="./images/item-category-hover.png" alt="item-category-hover">
                 </div>
             </div>
-            <div class="products">
+        </section>
+
+        <section class="grid-products padding">
+            <header class="header-products">
+                <h2 class="title-products">new products</h2>
+                <div class="top grid-products">
+                    <div class="categories-products">
+                        <p class="blacktextheader">all products</p>
+                        <p>t-shirt</p>
+                        <p>hoodies</p>
+                        <p>jacket</p>
+                    </div>
+                    <div>
+                        <button class="button-products filter">
+                            <img src="./images/Vector.png" alt="filter">
+                            Filter
+                        </button>
+                    </div>
+                </div>
+            </header>
+            <div class="products grid-products">
                 <div class="onerow-products">
                 <div class="product-card">
                     <img src="./images/p1.png" alt="product1">
@@ -161,159 +154,173 @@
                 </div>
             </div>
             </div>
+        </section>
+
+        <section class="brand-banner">
+            <div class="content-brand-banner">
+                <div class="zara-logo">
+                    <img src="./images/1024px-Zara_Logo 2.png" alt="zara-logo-small" class="small-zara-logo">
+                    <img src="./images/1024px-Zara_Logo 1.png" alt="zara-logo-big" class="big-zara-logo">
+                </div>
+                <div>
+                    <p class="text-brand-banner">Lustrous yet understated. The new evening wear collection exclusively offered at the reopened Giorgio Armani boutique in Los Angeles.</p>
+                    <button class="button-brand-banner">
+                        See Collection
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="slider-products padding">
+            <header class="header-products">
+                <h2 class="title-products">best sellers</h2>
+                <div class="top slider-products">
+                    <div class="categories-products">
+                        <p class="blacktextheader">all products</p>
+                        <p>t-shirt</p>
+                        <p>hoodies</p>
+                        <p>jacket</p>
+                    </div>
+                    <div>
+                        <button class="button-products showAll">
+                            Show All
+                        </button>
+                    </div>
+                </div>
+            </header>
+            <div class="products bestsellers">
+                <div class="product-card">
+                    <img src="./images/p5.png" alt="product5">
+                    <p class="product-name">Basic Dress Green</p>
+                    <div class="bottom-product">
+                        <p class="product-category">Dress</p>
+                        <p class="product-price">$236.00</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./images/p2.png" alt="product2">
+                    <p class="product-name">Nike Sportswear Futura Luxe</p>
+                    <div class="bottom-product">
+                        <p class="product-category">bag</p>
+                        <p class="product-price">$130.00</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./images/p4.png" alt="product4">
+                    <p class="product-name">Yellow Reserved Hoodie</p>
+                    <div class="bottom-product">
+                        <p class="product-category">Dress</p>
+                        <p class="product-price">$155.00</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="./images/p10.png" alt="product10">
+                    <p class="product-name">Nike Air Zoom Pegasus</p>
+                    <div class="bottom-product">
+                        <p class="product-category">shoe</p>
+                        <p class="product-price">$198.00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter-Instagram background">
+            <div class="content-newsletter-Instagram">
+                <div class="instagram">
+                    <h2 class="title-newsletter-Instagram">
+                        Follow products and discounts on Instagram
+                    </h2>
+                    <div class="images-instagram">
+                        <img src="./images/ins1.png" alt="ins1">
+                        <img src="./images/ins2.png" alt="ins2">
+                        <img src="./images/ins3.png" alt="ins3">
+                        <img src="./images/ins4.png" alt="ins4">
+                        <img src="./images/ins5.png" alt="ins5">
+                        <img src="./images/ins6.png" alt="ins6">
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <h2 class="title-newsletter-Instagram">
+                        Or subscribe to the newsletter
+                    </h2>
+                    <div class="forms-newsletter"> 
+                        <div class="form-email">
+                            <form>
+                                <label>
+                                    <input type="email" required placeholder="email address..." class="input email-form background">
+                                </label>
+                            </form>
+                        </div>
+                        <div class="form-submit">
+                            <form>
+                                <label>
+                                    <input type="submit" class="input submit-form" value="Submit"> 
+                                </label>
+                            </form>
+                        </div>
+                    </div>       
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="top-footer padding">
+            <div class="left-footer">
+                <div class="logo-footer">
+                    <img src="./images/logo-footer.png" alt="logo-footer">
+                    CORAL
+                    <img src="./images/logo-footer.png" alt="logo-footer">
+                </div>
+                <p class="text-leftFooter textFooter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                <div class="social">
+                    <img src="./images/facebook.png" alt="facebook">
+                    <img src="./images/twitter.png" alt="twitter">
+                    <img src="./images/linkedin.png" alt="linkedin">
+                    <img src="./images/dribbble.png" alt="dribbble">
+                </div>
+            </div>
+            <div class="main-footer">
+                <div class="footer-menu">
+                    <h3 class="footer-title">CATALOG</h3>
+                    <div class="footer-items textFooter">
+                        <p>Necklaces</p>
+                        <p>hoodies</p>
+                        <p>Jewelry Box</p>
+                        <p>t-shirt</p>
+                        <p>jacket</p>
+                    </div>
+                </div>
+                <div class="footer-menu">
+                    <h3 class="footer-title">about us</h3>
+                    <div class="footer-items textFooter">
+                        <p>Our Producers</p>
+                        <p>Sitemap</p>
+                        <p>FAQ</p>
+                        <p>About Us</p>
+                        <p>Terms & Conditions</p>
+                    </div>
+                </div>
+                <div class="footer-menu">
+                    <h3 class="footer-title">CUSTOMER SERVICES</h3>
+                    <div class="footer-items textFooter">
+                        <p>Contact Us</p>
+                        <p>Track Your Order</p>
+                        <p>Product Care & Repair</p>
+                        <p>Book an Appointment</p>
+                        <p>Shipping & Returns</p>
+                    </div>
+                </div>
+            </div>
         </div>
-   </section>
-   <section class="brand-banner">
-        <div class="logo-zara">
-            <img src="./images/1024px-Zara_Logo 2.png" alt="ZaraLogo2" class="smallLogo">
-            <img src="./images/1024px-Zara_Logo 1.png" alt="ZaraLogo1" class="bigLogo">
-        </div>
-        <div>
-            <p class="text-brand-banner">Lustrous yet understated. The new evening wear collection exclusively offered at the reopened Giorgio Armani boutique in Los Angeles.</p>
-        </div>
-        <div class="button-seeCollection">
-            <p>see collection</p>
-        </div>
-   </section>
-   <section class="slider-products">
-    <h2 class="title-products">Best sellers</h2>
-            <div class="header-products">
-                <div class="sort-products">
-                    <p class="blacktextheader">all products</p>
-                    <p>t-shirt</p>
-                    <p>hoodies</p>
-                    <p>jacket</p>
-                </div>
-                <div class="button-showAll">
-                        <p style="margin: 5px 13px; white-space: nowrap;">Show All</p> 
+        <div class="bottom-footer">
+                <p class="text-bottom-footer">© 2022 Coral , Inc.</p>
+                <img src="./images/icons_payment 1.png" alt="icons_payment" class="payment-bottom-footer">
+                <div class="scroll-to-top">
+                    <p>Scroll to top</p>
+                    <img src="./images/Arrow_top.png" alt="Arrow_top">
                 </div>
             </div>
-        <div class="bestsellers">
-            <div class="product-card">
-                <img src="./images/p5.png" alt="product5">
-                <p class="product-name">Basic Dress Green</p>
-                <div class="bottom-product">
-                    <p class="product-category">Dress</p>
-                    <p class="product-price">$236.00</p>
-                </div>
-            </div>
-            <div class="product-card">
-                <img src="./images/p2.png" alt="product2">
-                <p class="product-name">Nike Sportswear Futura Luxe</p>
-                <div class="bottom-product">
-                    <p class="product-category">bag</p>
-                    <p class="product-price">$130.00</p>
-                </div>
-            </div>
-            <div class="product-card">
-                <img src="./images/p4.png" alt="product4">
-                <p class="product-name">Yellow Reserved Hoodie</p>
-                <div class="bottom-product">
-                    <p class="product-category">Dress</p>
-                    <p class="product-price">$155.00</p>
-                </div>
-            </div>
-            <div class="product-card">
-                <img src="./images/p10.png" alt="product10">
-                <p class="product-name">Nike Air Zoom Pegasus</p>
-                <div class="bottom-product">
-                    <p class="product-category">shoe</p>
-                    <p class="product-price">$198.00</p>
-                </div>
-            </div>
-        </div>
-   </section>
-   <section class="newsLetter-instagram">
-    <h2 class="title-instagram">Follow products and discounts on Instagram</h2>
-    <div class="instagram-photos">
-        <img src="./images/ins1.png" alt="ins1">
-        <img src="./images/ins2.png" alt="ins2">
-        <img src="./images/ins3.png" alt="ins3">
-        <img src="./images/ins4.png" alt="ins4">
-        <img src="./images/ins5.png" alt="ins5">
-        <img src="./images/ins6.png" alt="ins6">
-    </div>
-    <div class="newsletter-form">
-        <h2 class="title-newsletter">Or subscribe to the newsletter</h2>
-        <div class="forms"> 
-            <div class="email-form">
-                <form>
-                    <label>
-                        <input type="email" required placeholder="email address..." class="input-email">
-                    </label>
-                </form>
-                <hr/>
-            </div>
-            <div class="submit-form">
-                <form>
-                    <label>
-                        <input type="submit" class="submit-button" value="Submit"> 
-                    </label>
-                </form>
-                <hr/>
-            </div>
-        </div>       
-    </div>
-   </section>
-   <footer>
-    <div class="top-footer">
-        <div class="left-footer">
-            <div class="logo-footer">
-                <img src="./images/logo-footer.png" alt="logo-footer">
-                CORAL
-                <img src="./images/logo-footer.png" alt="logo-footer">
-            </div>
-            <p class="text-leftFooter">Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua</p>
-            <div class="social">
-                <img src="./images/facebook.png" alt="facebook">
-                <img src="./images/twitter.png" alt="twitter">
-                <img src="./images/linkedin.png" alt="linkedin">
-                <img src="./images/dribbble.png" alt="dribbble">
-            </div>
-        </div>
-        <div class="main-footer">
-            <div class="footer-menu">
-                <h3 class="footer-title">CATALOG</h3>
-                <div class="footer-items">
-                    <p>Necklaces</p>
-                    <p>hoodies</p>
-                    <p>Jewelry Box</p>
-                    <p>t-shirt</p>
-                    <p>jacket</p>
-                </div>
-            </div>
-            <div class="footer-menu">
-                <h3 class="footer-title">about us</h3>
-                <div class="footer-items">
-                    <p>Our Producers</p>
-                    <p>Sitemap</p>
-                    <p>FAQ</p>
-                    <p>About Us</p>
-                    <p>Terms & Conditions</p>
-                </div>
-            </div>
-            <div class="footer-menu">
-                <h3 class="footer-title">CUSTOMER SERVICES</h3>
-                <div class="footer-items">
-                    <p>Contact Us</p>
-                    <p>Track Your Order</p>
-                    <p>Product Care & Repair</p>
-                    <p>Book an Appointment</p>
-                    <p>Shipping & Returns</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bottom-footer">
-        <p class="text-bottom-footer">© 2022 Coral , Inc.</p>
-        <img src="./images/icons_payment 1.png" alt="icons_payment" style="width: 283px; height: 24px; margin: 14px 0px 14px 0px;">
-        <div class="scroll-to-top">
-            <p>Scroll to top</p>
-            <img src="./images/Arrow_top.png" alt="Arrow_top">
-        </div>
-    </div>
-   </footer>
+    </footer>
 </body>
 </html>
