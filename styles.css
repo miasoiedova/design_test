@@ -54,6 +54,16 @@ body{
     white-space: nowrap;
 }
 
+.flower-pattern{
+    position: absolute;
+    margin-top: 220px;
+}
+
+.flower-pattern img{
+    height: 372.68px;
+    width: 100%;
+}
+
 .top-main-product{
     width: 1230px;
     height: 562px;
@@ -62,11 +72,12 @@ body{
     text-transform: capitalize;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .content-top-main-product{
-    width: 682px;
-    height: 119px;
+    width: 686px;
+    height: 364px;
 }
 
 .title-content{
@@ -78,6 +89,7 @@ body{
     font-size: 30px;
     line-height: 55px;
     margin-top: 52px;
+    margin-bottom: 0;
 }
 
 .image-top-main-product img{
@@ -131,7 +143,7 @@ body{
     margin-bottom: 140px;
 }
 
-.items-hot-category p{
+.text-items{
     writing-mode: tb-rl;
     transform: rotate(-180deg);
     white-space: nowrap;
@@ -151,12 +163,45 @@ body{
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 24px;
     grid-row-gap: 24px;
+    height: 648px;
 }
 
 .collage-images img{
     width: 312px;
     height: 312px;
 }
+
+.absolute {
+    position: absolute;
+}
+
+.hover{
+    width: inherit;
+    background-color: #1E2832;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hot-category-hover{
+    margin-top: 260px;
+    padding: 15px 11px;
+}
+
+.grid-products-hover{
+    margin-top: 344px;
+    padding: 16px 0px;
+}
+
+.hover p{
+    margin: 0 0;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
 
 .title-products{
     font-weight: 500;
@@ -222,9 +267,14 @@ body{
     display: flex;
     flex-direction: row;
     gap: 24px;
+    margin-top: 32px;
 }
 
-.product-card img{
+.product-card{
+    width: 312px;
+}
+
+.image-product-card{
     width: 312px;
     height: 400px;
 }
@@ -234,6 +284,17 @@ body{
     margin-left: 10px;
 }
 
+
+.icon-hover{
+    width: 24px;
+    height: 24px;
+}
+
+.icon-hover.search{
+    width: 17px;
+    height: 17px;
+}
+
 .bottom-product{
     display: flex;
     flex-direction: row;
@@ -241,8 +302,70 @@ body{
     justify-content: space-between;
 }
 
+.salePrice{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    font-weight: 600;
+    align-items: center;
+}
+
+.priceBefore{
+    color: #777777;
+    font-size: 14px;
+    text-decoration: line-through;
+}
+
+.priceAfter{
+    color: #FF6F61;
+    font-size: 16px;
+}
+
 .product-category{
     color: #777777;;
+}
+
+.access-product-hover{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 66px;
+    align-items: center;
+    padding: 0px 16px;
+}
+
+.ShopNow-hover{
+    width: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 16px;
+}
+
+.ribbon{
+    width: 52px;
+    height: 24px;
+    position: relative;
+    margin-top: 22px;
+    margin-bottom: 372px;
+}
+
+.ribbonSale{
+    background-color: #1E2832;
+}
+
+.ribbonHot{
+    background-color: #FF6F61;;
+}
+
+.textRibbon{
+    margin: 0 0;
+    padding: 4px 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 
@@ -302,6 +425,18 @@ body{
     display: flex;
     flex-direction: row;
     gap: 24px;
+    position: relative;
+}
+
+.sliders{
+    width: 1290px;
+    height: 32px;
+    margin: 184px 15px 0px 15px;
+}
+
+.sliders img{
+    width: 1290px;
+    height: 32px;
 }
 
 .newsletter-Instagram{
@@ -334,9 +469,16 @@ body{
     margin: 60px 0px 70px;
 }
 
-.images-instagram img{
+.image-newsletter{
     width: 200px;
     height: 200px;
+}
+
+.instagramIcon{
+    position: relative;
+    width: 42px;
+    height: 42px;
+    margin: 79px;
 }
 
 .forms-newsletter{
